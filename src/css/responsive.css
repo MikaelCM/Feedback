@@ -1,0 +1,113 @@
+@media (max-width: 768px) {
+
+    #main {
+        padding: 30px 13px;
+    }
+
+    #main header {
+        font-size: 14px;
+    }
+
+    #result {
+        padding: 25px 13px;
+    }
+
+    .star {
+        margin-bottom: 18px;
+    }
+
+    .how-many-selected {
+        margin-top: 25px;
+    }
+
+    #result header {
+        margin: 35px 0 12px 0;
+    }
+
+    .circle {
+        padding: 22px;
+    }
+
+    .container-numbers-circle {
+        gap: 25px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    #main, #result {
+        border-radius: 14px;
+    }
+
+    #main header, #result header {
+        font-size: 11px;
+    }
+
+    #main header {
+        margin-bottom: 2px;
+    }
+
+    #main p, #result p {
+        font-size: 13px;
+    }
+
+    #main {
+        padding: 0 10px;
+    }
+
+    .star {
+        margin: 20px 0 10px 0;
+    }
+
+    .star img {
+        width: .8rem;
+        height: .8rem;
+    }
+
+    .circle {
+        padding: 20px;
+        font-size: 13px;
+    }
+
+    .container-numbers-circle {
+        justify-content: space-between;
+        gap: 0;
+        flex-wrap: wrap;
+    }
+
+    .rate {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 12px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+    #result {
+        padding: 15px 5px;
+    }
+
+    .how-many-selected {
+        font-size: 11px;
+        margin-top: 16px;
+    }
+
+    .img-container {
+        width: 8rem;
+        justify-self: center;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    #result header {
+        margin: 25px 0 12px 0;
+    }
+}
+

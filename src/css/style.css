@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #141519;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Overpass", sans-serif;
+}
+
+header {
+    color: #FCFFFF;
+}
+
+#main, #result {
+    background: linear-gradient(to bottom, #212832 45% ,#171E28);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 35px;
+    gap: 10px;
+    border-radius: 30px;
+    width: 100%;
+}
+
+p {
+    line-height: 1.6;
+}
+
+header, p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.container-numbers-circle {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.circle {
+    background-color: #262F38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 26px;
+    font-weight: 700;
+}
+
+.rate {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.rate:hover {
+    background-color: #FC7613;
+}
+
+.rate.selected {
+    background-color: #FCFFFF;
+    color: #141519;
+}
+
+p, .circle {
+    color: #99A0AA;
+}
+
+.star {
+    margin-bottom: 30px;
+}
+
+.star img {
+    height: 17px;
+}
+
+button {
+    background-color: #FC7613;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 30px;
+    border: none;
+    letter-spacing: 2.5px;
+    margin-top: 20px;
+    text-shadow: 0 0 0 black;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    color: aqua;
+    font-weight: 600;
+}
+
+#result {
+    text-align: center;
+    padding: 45px 40px;
+    display: none;
+}
+
+.how-many-selected {
+    background-color: #262F38;
+    padding: 8px 20px 5px 20px;
+    border-radius: 25px;
+    color: #FC7613;
+    font-size: 15px;
+    margin-top: 25px;
+    width: fit-content;
+    justify-self: center;
+}
+
+.result-header {
+    margin: 40px 0 15px 0;
+}
